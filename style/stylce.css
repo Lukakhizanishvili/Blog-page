@@ -1,0 +1,99 @@
+body{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+.container{
+    display: flex;
+}
+
+.section-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-image: linear-gradient(to bottom right, rgb(73, 73, 245), rgb(250, 217, 217), orange) ;
+    height: 140vh;
+}
+
+.page-1{
+    color: black;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.photo{
+    width: 63%;
+    border-radius: 25px;
+}
+.section-right{
+    background-color: rgb(250, 217, 217);
+    width: 50%;
+    height: 140vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sections{
+    height: 73vh;
+    width: 70%;
+}
+
+.lower-case-title{  
+    line-height: 1.4em;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.buttons{
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    border: solid gray 1px;
+    outline: none;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    
+    
+}
+.buttons-div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+} 
+.lowercase-title{
+    margin: 25px 0;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.icon{
+    margin-top: 20px;
+    color: black;
+}
+button:hover{
+    color: white;
+    background-color: black;
+    transition-delay: 0.2s;
+    cursor:pointer;
+    transition-duration:0.5s;
+}
+.footer-title{
+    font-size: 14px;
+    margin-top: 105px;
+    color: black;
+    opacity: 0.8;
+    margin-left: 50px;
+}
+.page{
+    display: flex;
+    justify-content: end;
+}
